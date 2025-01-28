@@ -67,16 +67,16 @@ function handleKeyDown(event) {
 
 
 const Root = () => {
-  // handleInspectDetection();
-  // disableRightClickAndCtrlShortcut();
+  handleInspectDetection();
+  disableRightClickAndCtrlShortcut();
 
-  // useEffect(() => {
-  //   window.addEventListener("keydown", handleKeyDown);
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
 
-  //   return () => {
-  //     window.removeEventListener("keydown", handleKeyDown);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
 
   return (
     <div className="App">
