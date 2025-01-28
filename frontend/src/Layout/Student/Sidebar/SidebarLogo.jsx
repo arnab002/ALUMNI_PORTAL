@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Menu } from 'react-feather';
 import { Link } from 'react-router-dom';
 import { Image } from '../../../AbstractElements';

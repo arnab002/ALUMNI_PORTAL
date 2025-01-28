@@ -1,9 +1,6 @@
 import React from 'react';
 import { Card, CardBody, Button, Row, Col } from 'reactstrap';
 import Student from "../images/StudentImg.jpg";
-import Faculty from "../images/Faculty_1.jpg";
-import Library from "../images/LibrarianImg.jpg";
-import LibraryMember from "../images/Library-Member.jpg";
 import Department from "../images/Department.jpg";
 import { Link as Link2 } from 'react-router-dom';
 
@@ -62,14 +59,6 @@ const Authlogin = () => {
             </CardBody>
           </Card>
         </Col>
-        {/* <Col>
-          <Card style={cardStyle}>
-            <img alt="Faculty" src={Faculty} style={imgStyle} />
-            <CardBody style={bodyStyle}>
-              <Button color='primary'><Link2 to="/faculty" target='_blank' style={{ color: 'white' }}>Faculty Login</Link2></Button>
-            </CardBody>
-          </Card>
-        </Col> */}
         <Col>
           <Card style={cardStyle}>
             <img alt="Faculty" src={Student} style={imgStyle} />
@@ -79,24 +68,6 @@ const Authlogin = () => {
           </Card>
         </Col>
       </Row>
-      {/* <Row style={rowStyle}>
-        <Col>
-          <Card style={cardStyle}>
-            <img alt="Student" src={Library} style={imgStyle} />
-            <CardBody style={bodyStyle}>
-              <Button color='primary'><Link2 to="/library" target='_blank' style={{ color: 'white' }}>Librarian Login</Link2></Button>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={cardStyle}>
-            <img alt="Faculty" src={LibraryMember} style={imgStyle} />
-            <CardBody style={bodyStyle}>
-              <Button color='primary'><Link2 to="/library/member" target='_blank' style={{ color: 'white' }}>Library Member Login</Link2></Button>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row> */}
     </div>
   );
 };
