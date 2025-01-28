@@ -69,11 +69,11 @@ function Footer() {
                                     <h3>Explore links</h3>
                                     <ul className="footer_link">
                                         <li><Link activeClass="active" to="home" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Home</Link></li>
-                                        {/* <li><Link activeClass="active" to="about" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">About Us</Link></li> */}
-                                        {/* <li><Link activeClass="active" to="courses" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Courses</Link></li> */}
+                                        <li><Link activeClass="active" to="about" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">About Us</Link></li>
+                                        <li><Link activeClass="active" to="courses" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Courses</Link></li>
                                         <li><Link activeClass="active" to="testimonials" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Testimonials</Link></li>
-                                        {/* <li><Link activeClass="active" to="events" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Events</Link></li> */}
-                                        {/* <li><Link activeClass="active" to="achievements" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Achievements</Link></li> */}
+                                        <li><Link activeClass="active" to="events" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Events</Link></li>
+                                        <li><Link activeClass="active" to="achievements" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Achievements</Link></li>
                                         <li><Link activeClass="active" to="contact" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Contact</Link></li>
                                     </ul>
                                 </div>
@@ -99,7 +99,8 @@ function Footer() {
                         <div className="row">
                             <div className="col-12">
                                 <div className="footer_bottom flex justify-content-center">
-                                    <p>ALUMNI © {currentYear}, All Rights Reserved </p>
+                                    {/* <p>ALUMNI © {currentYear}, All Rights Reserved </p> */}
+                                    <p>ALUMNI {currentYear}</p>
                                 </div>
                             </div>
                         </div>

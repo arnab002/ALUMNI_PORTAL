@@ -240,10 +240,10 @@ const Student = () => {
             <Col sm="12">
                 <Card>
                     <CardHeader>
-                        <H3>Student List</H3>
+                        <H3>Alumni List</H3>
                         <span>&nbsp;</span>
                         <Btn attrBtn={{ color: 'primary d-flex align-items-center', className: "btn btn-air-primary", onClick: openAddModal }}>
-                            <Plus style={{ width: '18px', height: '18px' }} className='me-2' /> Add New Student
+                            <Plus style={{ width: '18px', height: '18px' }} className='me-2' /> Add New Alumni
                         </Btn>
                         <Modal isOpen={addModal} toggle={closeAddModal} size="xl" centered>
                             <ModalBody>

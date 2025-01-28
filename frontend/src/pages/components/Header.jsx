@@ -97,7 +97,7 @@ function Header() {
 
     return (
         <div>
-            {/* <section className="topbar">
+            <section className="topbar">
                 <div className="container">
                     <div className="col-xl-12">
                         <div className="topbar_text" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -116,7 +116,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
             <nav className="navbar navbar-expand-lg main_menu">
                 <div className="container">
                     <Link2 to="/" style={{ cursor: 'pointer' }} className="navbar-brand">
@@ -132,21 +132,21 @@ function Header() {
                             <li className="nav-item">
                                 <Link activeClass="active" to="home" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Home</Link>
                             </li>
-                            {/* <li className="nav-item">
+                            <li className="nav-item">
                                 <Link activeClass="active" to="about" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link activeClass="active" to="courses" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Courses</Link>
-                            </li> */}
+                                <Link activeClass="active" to="courses" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Departments</Link>
+                            </li>
                             <li className="nav-item">
                                 <Link activeClass="active" to="testimonials" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Testimonials</Link>
                             </li>
-                            {/* <li className="nav-item">
+                            <li className="nav-item">
                                 <Link activeClass="active" to="events" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Events</Link>
                             </li>
                             <li className="nav-item">
                                 <Link activeClass="active" to="achievements" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Achievements</Link>
-                            </li> */}
+                            </li>
                             <li className="nav-item">
                                 <Link activeClass="active" to="contact" style={{ cursor: 'pointer' }} spy={true} smooth={true} duration={500} className="nav-link">Contact</Link>
                             </li>

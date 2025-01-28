@@ -11,7 +11,7 @@ const Footer = () => {
         <Container fluid={true}>
           <Row>
             <Col md="12" className="footer-copyright text-center">
-              <P attrPara={{ className: "mb-1" }}>Copyright {currentYear} © by Arnab Modak & Rounak Saha.</P>
+              {/* <P attrPara={{ className: "mb-1" }}>Copyright {currentYear} © by ALUMNI</P> */}
               <H6 attrPara={{ className: "mb-0" }}>(Always Use Google Chrome For Best View)</H6>
             </Col>
           </Row>

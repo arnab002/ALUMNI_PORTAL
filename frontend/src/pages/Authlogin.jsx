@@ -56,20 +56,20 @@ const Authlogin = () => {
       <Row style={rowStyle}>
         <Col>
           <Card style={cardStyle}>
-            <img alt="Student" src={Department} style={imgStyle} />
+            <img alt="Admin" src={Department} style={imgStyle} />
             <CardBody style={bodyStyle}>
-              <Button color='primary'><Link2 to="/department" target='_blank' style={{ color: 'white' }}>Department Login</Link2></Button>
+              <Button color='primary'><Link2 to="/admin" target='_blank' style={{ color: 'white' }}>Admin Login</Link2></Button>
             </CardBody>
           </Card>
         </Col>
-        <Col>
+        {/* <Col>
           <Card style={cardStyle}>
             <img alt="Faculty" src={Faculty} style={imgStyle} />
             <CardBody style={bodyStyle}>
               <Button color='primary'><Link2 to="/faculty" target='_blank' style={{ color: 'white' }}>Faculty Login</Link2></Button>
             </CardBody>
           </Card>
-        </Col>
+        </Col> */}
         <Col>
           <Card style={cardStyle}>
             <img alt="Faculty" src={Student} style={imgStyle} />
@@ -79,7 +79,7 @@ const Authlogin = () => {
           </Card>
         </Col>
       </Row>
-      <Row style={rowStyle}>
+      {/* <Row style={rowStyle}>
         <Col>
           <Card style={cardStyle}>
             <img alt="Student" src={Library} style={imgStyle} />
@@ -96,7 +96,7 @@ const Authlogin = () => {
             </CardBody>
           </Card>
         </Col>
-      </Row>
+      </Row> */}
     </div>
   );
 };

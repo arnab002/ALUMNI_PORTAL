@@ -47,7 +47,7 @@ function Courses() {
                     <div className="row">
                         <div className="col-xl-6 col-md-9 col-lg-7 m-auto">
                             <div className="section_heading heading_center mb_30">
-                                <h2>Our Popular Courses</h2>
+                                <h2>Our Departments</h2>
                             </div>
                         </div>
                     </div>
