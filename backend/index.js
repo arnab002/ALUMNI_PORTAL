@@ -72,7 +72,7 @@ let notifications = [];
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://portalalumni.netlify.app',
     methods: ['GET', 'POST'],
   },
 });
@@ -90,7 +90,7 @@ io.on('connection', (socket) => {
 export { io , notifications};
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://portalalumni.netlify.app",
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
@@ -113,9 +113,9 @@ app.use(
     name: 'MernCollegeERP',
     cookie: {
       maxAge: 3600000,
-      secure: false,
+      secure: true,
       httpOnly: true,
-      sameSite: 'strict',
+      sameSite: 'none',
     },
   })
 );
